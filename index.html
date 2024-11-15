@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Новая жизнь | Главная страница</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="Library/css/font-awesome.min.css">
     <link rel="stylesheet" href="Styles/Pages/index.css">
     <link rel="stylesheet" href="Styles/setting.css">
 </head>
@@ -12,7 +13,10 @@
     <header>
         <div class="container">
          <div class="header_content">
-         <div class="logo"><a href="index.html">New Live</a></div>
+         <div class="logo">
+          <a href="index.html">New Live</a>
+        </div>
+         
          
          <nav class="nav">
             <a href="#">Поиск</a>
@@ -81,7 +85,7 @@
                       <div class="swiper-slide">
                         <img src="Images/Suslik.jpg" alt="Suslik">
                         <p>Найден на улице</p>
-                        <button type="button" class="button"><a href="#">Подр<a href="#">Подробнее</a></button>
+                        <button type="button" class="button"><a href="#"><a href="#">Подробнее</a></button>
                         </div>
                        
                     </div>
@@ -91,6 +95,47 @@
                 
             </div>
         </section>
+       
+       
+      <section class="short-search">
+        <div class="container">
+          <form class="search-form">
+            <label for="" class="animal">Вид животного</label>
+            <select name="type-animal" id="type-animal">
+              <option value="cat">Кот</option>
+              <option value="dog">Собака</option>
+              <option value="Suslik">Суслик</option>
+            </select>
+            <button type="submit"><a href="#">Поиск</a></button>
+            
+          </form>
+        </div>
+      </section>
+      <div class="container">
+        <h2>Факты</h2>
+        <hr>
+      </div>
+      <section class="facts">
+        <div class="container">
+          <div class="facts-content">
+            <div class="card-facts">
+              <i class="fa fa-eye" aria-hidden="true"></i>
+              <h3 class="card-description">Внимательно следим и наблюдаем за бездомными животными</h3>
+            </div>
+
+            <div class="card-facts">
+              <i class="fa fa-ambulance" aria-hidden="true"></i>
+              <h3 class="card-description">Спасли более 500 животных</h3>
+            </div>
+
+            <div class="card-facts">
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+              <h3 class="card-description">Качественно лечение</h3>
+            </div>
+
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Swiper JS -->

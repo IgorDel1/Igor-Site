@@ -11,6 +11,7 @@
     text-decoration: none;
 }
 
+
 .nav a{
     margin-right: 20px;
     color: #000;
@@ -50,7 +51,61 @@
     padding: 10px;
   }
 
+  .short-search{
+    padding: 96px;
+  }
 
+  .short-search form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 50px 0px;
+    box-shadow: 5px 5px 5px 5px #7a7a7a65;
+    background-color: rgb(219, 255, 196) ;
+  }
+
+.search-form button{
+  padding: 5px 5px;
+  width: 100px;
+  background-color: #1171cabd;
+  border-color: #1171cabd;
+  border: none;
+  border-radius: 10px;
+ 
+}
+
+.search-form button a{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.facts{
+  margin-top: 15px;
+}
+
+.facts-content{
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 20px;
+ 
+}
+
+.card-facts{
+  box-shadow: 5px 5px 5px 5px #7a7a7a65;
+  margin-right: 20px;
+  width: 400px;
+  height: 100px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid rgba(80, 80, 80, 0.457);
+}
+
+.card-description{
+  padding-top: 10px;
+}
 
 
 
