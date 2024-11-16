@@ -1,3 +1,4 @@
+
 .header_content{
     display: flex;
     justify-content: space-between;
@@ -5,6 +6,7 @@
     background-color: rgb(219, 255, 196);
     box-shadow: 2px 2px 5px 5px #cbcbcb65;
     padding: 30px 10px;
+    padding-bottom: 200px;
 }
 
 .header_content a{
@@ -105,6 +107,52 @@
 
 .card-description{
   padding-top: 10px;
+}
+
+.search{
+  padding: 96px 0px;
+}
+
+.search_button{
+  padding: 5px 5px;
+  width: 100px;
+  background-color: #1171cabd;
+  border-color: #1171cabd;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.search_button a{
+  text-decoration:none;
+  color:#fff
+}
+
+.search .container{
+  display:flex;
+  gap: 96px;
+  justify-content:space-between;
+  align-items:center;
+  border: 1px solid rgba(80, 80, 80, 0.457);
+  box-shadow: 5px 5px 5px 5px #7a7a7a65;
+}
+
+.search-form{
+  display: flex;
+  margin-right: 20px;
+  flex-direction: column;
+  gap: 16px;
+  
+}
+
+.search_picture img{
+  width: 700px;
+  height: 300px;
+}
+
+.swiper-slide img{
+  width: 369px;
+  height: 207px;
 }
 
 

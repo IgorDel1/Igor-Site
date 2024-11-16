@@ -136,6 +136,102 @@
           </div>
         </div>
       </section>
+
+<section class="search">
+  <div class="container">
+    <div class="search_item">
+      <form>
+        <label for="place">Район</label>
+        <select name="place" id="place">
+        <option value="0">Правый берег</option>
+        <option value="1">Левый берег</option>
+      </select>
+      <label for="animal"></label>
+      <select name="animal" id="animal">
+        <option value="cat">Кот</option>
+        <option value="dog">Собака</option>
+        <option value="rabbit">Кролик</option>
+        <option value="hamster">Хомячок</option>
+        <option value="parrot">Попугай</option>
+      </select>
+      <button type="submit" class="search_button"><a href="#">Поиск</a></button>
+      </form>
+    </div>
+    <div class="search_picture">
+      <img src="Images/search_picture.jpg" alt="none">
+    </div>
+  </div>
+</section>
+
+<section class="reviews">
+  <div class="container">
+    <div class="swiper reviews-swiper">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <p>Андрей</p>
+            <br>
+            <img src="Images/cat.webp" alt="none">
+            <p>Нашли кота быстро. Спасибо большое!</p>
+            <p>Дата отзыва: 01.01.2017</p>
+          </div>
+          <div class="swiper-slide">
+            <p>Анна</p>
+            <br>
+            <img src="Images/dog.jpg" alt="none">
+            <p>Лучшая компания по поиску наших питомцев. Спасибо большое!</p>
+            <p>Дата отзыва: 16.02.2019</p>
+          </div>
+          <div class="swiper-slide">
+            <p>Дмитрий</p>
+            <br>
+            <img src="Images/enot.jpg" alt="none">
+            <p>Сьебался в лес, еле нашли. Спасибо большое!</p>
+            <p>Дата отзыва: 01.06.2002</p>
+          </div>
+          <div class="swiper-slide">
+            <p>Елена</p>
+            <br>
+            <img src="Images/hamster.webp" alt="none">
+            <p>Убежал, нашли. Спасибо большое!</p>
+            <p>Дата отзыва: 23.07.2020</p>
+          </div>
+          <div class="swiper-slide">
+            <p>Матвей</p>
+            <br>
+            <img src="Images/p.webp" alt="none">
+            <p>Нашли кота быстро. Спасибо большое!</p>
+            <p>Дата отзыва: 16.11.2024</p>
+          </div>
+          <div class="swiper-slide">
+            <p>Людмила</p>
+            <br>
+            <img src="Images/cat.webp" alt="none">
+            <p>Нашли кота быстро. Спасибо большое!</p>
+            <p>Дата отзыва: 05.08.2015</p>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    
+      =
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+      =
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    </div>
+  </div>
+</section>
+
+
     </main>
 
     <!-- Swiper JS -->
@@ -143,6 +239,15 @@
 
   <!-- Initialize Swiper -->
   <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
     var swiper = new Swiper(".mySwiper", {
       slidesPerView: 3,
       spaceBetween: 30,
