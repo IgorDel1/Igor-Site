@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новая жизнь | Новое обьявление</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="Library/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Styles/Pages/add.css">
+    <link rel="stylesheet" href="Styles/setting.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html">На главную</a>
+        </div>
+    </header>
+    <section class="add">
+        <div class="container">
+            <form class = "form">
+                <label for="phone">Номер телефона</label>
+                <input type="phone" name="phone" id="phone">
+                <label for="phone">Почта</label>
+                <input type="email" name="email" id="email">
+                <select name="type" id="type">
+                    <option value="cat">Кот</option>
+                    <option value="dog">Собака</option>
+                </select>
+                <label for="photo"></label>
+                <input type="file" name="photo" id="photo">
+                <label for="photo">Дополнительная информация</label>
+                <textarea name="desc" id="desc"></textarea>
+                <label for="mark">Клеймо (если есть)</label>
+                <input type="text" name="mark" id="mark">
+                <select name="place" id="place">
+                    <option value="0">Кировский</option>
+                    <option value="1">Центр</option>
+                </select>
+                <label for="date">Дата</label>
+                <input type="date">
+                <label for="agree">
+                    <input type="checkbox" name="agree" id="agree">
+                    Согласие на обработку персональных данных
+                </label>
+                <button class="submit">Добавить</button>
+            </form> 
+        </div>
+    </section>
+</body>
+</html>
